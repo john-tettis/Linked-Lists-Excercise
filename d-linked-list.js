@@ -220,7 +220,7 @@ class DoubleLinkedList {
                 current2=current2.next;
             }
             else if(current2===null){
-                vals.push(current1);
+                vals.push(current1.val);
                 current1=current1.next;
                 
             }
