@@ -162,12 +162,12 @@ describe('reverse',function(){
     })
 })
 
-// describe("sort",()=>{
-//     it('sorts two lists',()=>{
-//         let lst = new LinkedList([1,3,4,5,7,8]);
-//         let lst2 = new LinkedList([1,2,3,5,6,7,9,10]);
-//         let sorted = LinkedList.sort(lst,lst2)
-//         expect(sorted.read()).toEqual([1,1,2,3,3,4,5,5,6,7,7,8,9,10])
+describe("sort",()=>{
+    it('sorts two lists',()=>{
+        let lst = new LinkedList([1,3,4,5,7,8]);
+        let lst2 = new LinkedList([1,2,3,5,6,7,9,10]);
+        let sorted = LinkedList.sort(lst,lst2)
+        expect(sorted.read()).toEqual([1,1,2,3,3,4,5,5,6,7,7,8,9,10])
 
-//     })
-// })
+    })
+})
